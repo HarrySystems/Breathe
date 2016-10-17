@@ -1,7 +1,7 @@
 <?php
 	Abstract Class Exhale
 	{
-		function inhale()
+		function in()
 		{
 			//disable apache compressed
 				header('Content-Encoding: none;');
@@ -18,7 +18,7 @@
 			ob_start();
 		}
 		
-		function exhale()
+		function out()
 		{
 			if(ob_get_length() > 0)
 			{
