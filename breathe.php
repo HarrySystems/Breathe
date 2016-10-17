@@ -1,5 +1,5 @@
 <?php
-	Abstract Class Exhale
+	Abstract Class Breathe
 	{
 		function in()
 		{
